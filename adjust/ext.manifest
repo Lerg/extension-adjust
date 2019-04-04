@@ -1,0 +1,11 @@
+name: "adjust"
+
+platforms:
+    arm64-ios:
+        context:
+            frameworks: ["AdSupport", "iAd", "CoreTelephony"]
+            linkFlags:  ["-ObjC"]
+    armv7-ios:
+        context:
+            frameworks: ["AdSupport", "iAd", "CoreTelephony"]
+            linkFlags:  ["-ObjC"]
