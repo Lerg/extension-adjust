@@ -2,8 +2,6 @@
 
 This extension wraps Adjust SDK for iOS (4.17.1) and Android (4.17.0). On other platforms this extension provides stub functions.
 
-Use provided `AndroidManifest.xml` or copy Adjust entries into your existing one.
-
 Follow official guides for more information:
 - iOS https://github.com/adjust/ios_sdk/blob/master/README.md
 - Android https://github.com/adjust/android_sdk/blob/master/README.md

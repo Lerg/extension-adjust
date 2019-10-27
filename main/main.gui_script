@@ -29,7 +29,7 @@ local function init_pressed(self)
 	log('init_pressed')
 	-- Init Adjust with your app token.
 	adjust.init{
-		app_token = 'YOUR_APP_TOKEN',
+		app_token = '9gb9tifsuhvk',
 		--is_sandbox = true,
 		--app_secret = {id = 0, info1 = 0, info2 = 0, info3 = 0, info4 = 0},
 		--default_tracker = '',
@@ -52,13 +52,13 @@ end
 
 local function track_event1_pressed(self)
 	log('track_event1_pressed')
-	adjust.track_event{token = 'EVENT_TOKEN1'}
+	adjust.track_event{token = '28jkp2'}
 end
 
 local function track_event2_pressed(self)
 	log('track_event2_pressed')
 	adjust.track_event{
-		token = 'EVENT_TOKEN2',
+		--token = 'tsgtia',
 		callback_id = 'some_id',
 		partner_parameters = {
 			partner_key1 = 'partner_value1',
@@ -73,12 +73,12 @@ end
 
 local function track_purchase1_pressed(self)
 	log('track_purchase1_pressed')
-	adjust.track_event{token = 'EVENT_TOKEN1', revenue = 0.99, currency = 'USD'}
+	adjust.track_event{token = 'us6l0a', revenue = 0.99, currency = 'USD'}
 end
 
 local function track_purchase2_pressed(self)
 	log('track_purchase2_pressed')
-	adjust.track_event{token = 'EVENT_TOKEN2', revenue = 2.99, currency = 'EUR'}
+	adjust.track_event{token = 'us6l0a', revenue = 2.99, currency = 'EUR'}
 end
 
 local function get_stuff_pressed(self)
