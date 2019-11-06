@@ -1,7 +1,7 @@
 #ifndef utils_h
 #define utils_h
 
-#include <dmsdk/sdk.h>
+#include "../extension.h"
 #import <Foundation/Foundation.h>
 
 #define LuaScriptListener FUNCTION_NAME_EXPANDED(EXTENSION_NAME, LuaScriptListener)
