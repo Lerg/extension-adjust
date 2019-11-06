@@ -1,10 +1,11 @@
 #if defined(DM_PLATFORM_IOS)
 
 #import <AdjustSdk/Adjust.h>
-#include <dmsdk/sdk.h>
 #include "extension.h"
 
 #import "ios/utils.h"
+
+#define ExtensionInterface FUNCTION_NAME_EXPANDED(EXTENSION_NAME, ExtensionInterface)
 
 // Using proper Objective-C object for main extension entity.
 @interface ExtensionInterface : NSObject <AdjustDelegate>

@@ -1,7 +1,6 @@
 #if defined(DM_PLATFORM_ANDROID)
 
 #include <android/native_window_jni.h>
-#include <dmsdk/sdk.h>
 
 #include "extension.h"
 #include "android/java_lua.h"

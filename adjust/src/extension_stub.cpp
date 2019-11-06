@@ -1,6 +1,5 @@
 #if !defined(DM_PLATFORM_IOS) && !defined(DM_PLATFORM_ANDROID)
 
-#include <dmsdk/sdk.h>
 #include "extension.h"
 
 int EXTENSION_INIT(lua_State *L) {
